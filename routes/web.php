@@ -6,7 +6,7 @@ Route::get('/', [\App\Http\Controllers\PrincipalController::class,'principal']);
 
 Route::get('/sobre-nos',[\App\Http\Controllers\SobreNosController::class,'sobre-nos']);
 
-Route::get('/contato',[\App\Http\Controllers\ContatoContreoller::class,'contato']);
+Route::get('/contato',[\App\Http\Controllers\ContatoController::class,'contato']);
 
 Route::get('/login',function(){
     echo "Login";
